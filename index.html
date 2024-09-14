@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honest Book Reviews</title>
+</head>
+<body>
+    <header id="main-header">
+        <!-- The content of the header goes here -->
+         <h1 id="logo">Honest Book Reviews</h1>
+         <nav>
+            <ul id="nav-ul">
+                <li><a href=""class= "navbutton">Home</a></li>
+                <li><a href=""class= "navbutton">About Us</a></li>
+                <li><a href=""class= "navbutton">Get a Book Review</a></li>
+                <li><a href=""class= "navbutton">FAQ's</a></li>
+                <li><a href=""class= "navbutton">Login</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h2></h2>
+                    <nav>
+                        <ul>
+                            <li><a href="">Trending Book Reviews</a></li>
+                            <li><a href="">Featured Top Picks</a></li>
+                            <li><a href="">Years Best Sellers</a></li>
+                            <li><a href="">Books This Month</a></li>
+                            <li><a href="">Non-Fiction Books</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Filter by Genre</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="">Fantacy</a></li>
+                            <li><a href="">Romance</a></li>
+                            <li><a href="">Thriller</a></li>
+                            <li><a href="">Comedy</a></li>
+                            <li><a href="">Horror</a></li>
+                            <li><a href="">Crime</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <div>
+                <Header> 
+                    <h1>Famous Fantacy Books</h1>
+                </Header>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                         <h2>Harry Potter and the Philosopher's Stone</h2>
+                         <h3>Author: JK Rowling</h3>
+                         <img src="https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg" alt="Harry Potter and the Philosopher's Stone book cover" width="200" height="auto" /> <alt="A picture of the book cover">
+                        <a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="blank">Author's wikipedia Profile</a>
+                    </header>
+                    <main>
+                        <h3>Book Summary</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum, vero tenetur fuga ad temporibus perspiciatis voluptate est fugiat nulla. Sapiente velit repellat earum eveniet numquam vitae eaque quam at quia tempore nisi repudiandae a aut nam fugiat aperiam assumenda distinctio, ut, praesentium optio quisquam? Amet odio officiis magni pariatur saepe, velit recusandae asperiores soluta. Doloremque delectus minus aperiam assumenda repudiandae consequuntur dolor molestias est cum, similique harum, tempora eaque! Beatae perspiciatis ex nulla voluptas tempora autem earum aspernatur libero.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quas veniam rerum laborum deserunt minus odit neque adipisci sit enim cumque deleniti animi iste, autem aspernatur at facere explicabo nesciunt molestias, numquam tempora eaque officia. Totam natus quos impedit, ullam, eos, accusantium sequi quia corrupti ad nam quas ipsum obcaecati sunt ipsa amet mollitia necessitatibus incidunt earum dolor placeat fugit laborum dicta. Animi nemo laboriosam fuga dolore obcaecati vitae in impedit corrupti, laudantium expedita praesentium repellat quos voluptatum facere, exercitationem voluptas itaque. Reprehenderit voluptates enim tenetur consectetur, ut officia repellat quis accusamus praesentium recusandae id fuga quisquam totam qui perspiciatis molestias eos voluptate esse omnis magnam odio distinctio corporis nihil. Soluta praesentium sit commodi tempore veniam aperiam cupiditate quam aliquid, nihil ullam, itaque earum amet molestias cumque unde optio quia enim dicta vel necessitatibus dignissimos reiciendis sequi dolor repellendus. Facilis perspiciatis hic fugit commodi adipisci soluta corrupti tempora laboriosam rerum.</p>  
+                    </main>
+                    <footer>
+                        <h2>Review This Book</h2>
+                        <form action="" method="">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                            <br>
+                    
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                            <br>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <br>
+                    
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+                            <br>
+                    
+                            <label for="Rating out of 5 stars">Rating out of 5 stars</label>
+                            <div class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label for="star5">★</label>
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label for="star4">★★</label>
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label for="star3">★★★</label>
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label for="star2">★★★★</label>
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label for="star1">★★★★★</label>
+                              </div>
+                    
+                            <label for="country">Country:</label>
+                            <select name="country" id="country">
+                                <option value="england">England</option>
+                                <option value="scotland">Scotland</option>
+                                <option value="wales">Wales</option>
+                                <option value="northern_ireland">Northern Ireland</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <br>
+                    
+                            <label for="bio">Book Review</label>
+                            <textarea name="bio" id="bio" cols="70" rows="10"></textarea>
+                            <br>
+
+                            <label for="bio">My Favourite Character and Why</label>
+                            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                            <br>
+                    
+                            <input type="submit" value="Submit">
+                    
+                        </form>
+                        <hr>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                         <h2>The Hobbit</h2>
+                         <h3>Author: J. R. R. Tolkien</h3>
+                         <img id="hobbit-cover" src="https://upload.wikimedia.org/wikipedia/en/4/4a/TheHobbit_FirstEdition.jpg" alt="The Hobbit book cover" width="200" height="auto" /><alt="A picture of the book cover">
+                        <a href="https://en.wikipedia.org/wiki/J._R._R._Tolkien" target="blank">Author's wikipedia Profile</a>
+                    </header>
+                    <main>
+                        <h3>Book Summary</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum, vero tenetur fuga ad temporibus perspiciatis voluptate est fugiat nulla. Sapiente velit repellat earum eveniet numquam vitae eaque quam at quia tempore nisi repudiandae a aut nam fugiat aperiam assumenda distinctio, ut, praesentium optio quisquam? Amet odio officiis magni pariatur saepe, velit recusandae asperiores soluta. Doloremque delectus minus aperiam assumenda repudiandae consequuntur dolor molestias est cum, similique harum, tempora eaque! Beatae perspiciatis ex nulla voluptas tempora autem earum aspernatur libero.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quas veniam rerum laborum deserunt minus odit neque adipisci sit enim cumque deleniti animi iste, autem aspernatur at facere explicabo nesciunt molestias, numquam tempora eaque officia. Totam natus quos impedit, ullam, eos, accusantium sequi quia corrupti ad nam quas ipsum obcaecati sunt ipsa amet mollitia necessitatibus incidunt earum dolor placeat fugit laborum dicta. Animi nemo laboriosam fuga dolore obcaecati vitae in impedit corrupti, laudantium expedita praesentium repellat quos voluptatum facere, exercitationem voluptas itaque. Reprehenderit voluptates enim tenetur consectetur, ut officia repellat quis accusamus praesentium recusandae id fuga quisquam totam qui perspiciatis molestias eos voluptate esse omnis magnam odio distinctio corporis nihil. Soluta praesentium sit commodi tempore veniam aperiam cupiditate quam aliquid, nihil ullam, itaque earum amet molestias cumque unde optio quia enim dicta vel necessitatibus dignissimos reiciendis sequi dolor repellendus. Facilis perspiciatis hic fugit commodi adipisci soluta corrupti tempora laboriosam rerum.</p>  
+                    </main>
+                    <footer>
+                        <h2>Review This Book</h2>
+                        <form action="" method="">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                            <br>
+                    
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                            <br>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <br>
+                    
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+                            <br>
+                    
+                            <label for="Rating out of 5 stars">Rating out of 5 stars</label>
+                            <div class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label for="star5">★</label>
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label for="star4">★★</label>
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label for="star3">★★★</label>
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label for="star2">★★★★</label>
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label for="star1">★★★★★</label>
+                              </div>
+                    
+                            <label for="country">Country:</label>
+                            <select name="country" id="country">
+                                <option value="england">England</option>
+                                <option value="scotland">Scotland</option>
+                                <option value="wales">Wales</option>
+                                <option value="northern_ireland">Northern Ireland</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <br>
+                    
+                            <label for="bio">Book Review</label>
+                            <textarea name="bio" id="bio" cols="70" rows="10"></textarea>
+                            <br>
+
+                            <label for="bio">My Favourite Character and Why</label>
+                            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                            <br>
+                    
+                            <input type="submit" value="Submit">
+                    
+                        </form>
+                        <hr>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                         <h2>A Game of Thrones</h2>
+                         <h3>Author: George R. R. Martin</h3>
+                         <img src="https://upload.wikimedia.org/wikipedia/en/9/93/AGameOfThrones.jpg" alt="A Game of Thrones book cover" width="200" height="auto" /><alt="A picture of the book cover">
+                        <a href="https://en.wikipedia.org/wiki/George_R._R._Martin" target="blank">Author's wikipedia Profile</a>
+                    </header>
+                    <main>
+                        <h3>Book Summary</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum, vero tenetur fuga ad temporibus perspiciatis voluptate est fugiat nulla. Sapiente velit repellat earum eveniet numquam vitae eaque quam at quia tempore nisi repudiandae a aut nam fugiat aperiam assumenda distinctio, ut, praesentium optio quisquam? Amet odio officiis magni pariatur saepe, velit recusandae asperiores soluta. Doloremque delectus minus aperiam assumenda repudiandae consequuntur dolor molestias est cum, similique harum, tempora eaque! Beatae perspiciatis ex nulla voluptas tempora autem earum aspernatur libero.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quas veniam rerum laborum deserunt minus odit neque adipisci sit enim cumque deleniti animi iste, autem aspernatur at facere explicabo nesciunt molestias, numquam tempora eaque officia. Totam natus quos impedit, ullam, eos, accusantium sequi quia corrupti ad nam quas ipsum obcaecati sunt ipsa amet mollitia necessitatibus incidunt earum dolor placeat fugit laborum dicta. Animi nemo laboriosam fuga dolore obcaecati vitae in impedit corrupti, laudantium expedita praesentium repellat quos voluptatum facere, exercitationem voluptas itaque. Reprehenderit voluptates enim tenetur consectetur, ut officia repellat quis accusamus praesentium recusandae id fuga quisquam totam qui perspiciatis molestias eos voluptate esse omnis magnam odio distinctio corporis nihil. Soluta praesentium sit commodi tempore veniam aperiam cupiditate quam aliquid, nihil ullam, itaque earum amet molestias cumque unde optio quia enim dicta vel necessitatibus dignissimos reiciendis sequi dolor repellendus. Facilis perspiciatis hic fugit commodi adipisci soluta corrupti tempora laboriosam rerum.</p>  
+                    </main>
+                    <footer>
+                        <h2>Review This Book</h2>
+                        <form action="" method="">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                            <br>
+                    
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                            <br>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                            <br>
+                    
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password">
+                            <br>
+                    
+                            <label for="Rating out of 5 stars">Rating out of 5 stars</label>
+                            <div class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label for="star5">★</label>
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label for="star4">★★</label>
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label for="star3">★★★</label>
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label for="star2">★★★★</label>
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label for="star1">★★★★★</label>
+                              </div>
+                    
+                            <label for="country">Country:</label>
+                            <select name="country" id="country">
+                                <option value="england">England</option>
+                                <option value="scotland">Scotland</option>
+                                <option value="wales">Wales</option>
+                                <option value="northern_ireland">Northern Ireland</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <br>
+                    
+                            <label for="bio">Book Review</label>
+                            <textarea name="bio" id="bio" cols="70" rows="10"></textarea>
+                            <br>
+
+                            <label for="bio">My Favourite Character and Why</label>
+                            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                            <br>
+                    
+                            <input type="submit" value="Submit">
+                    
+                        </form>
+                        <hr>
+                    </footer>
+                </article>
+            </div>
+
+        </div>
+
+        <!-- Main content of the website goes here -->
+
+    </main>
+    <footer>
+        <h2>Honest Book Reviews Site</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </div>
+                    <div>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+        <!-- The content of the footer goes here -->
+    </footer>
+</body>
+</html>
